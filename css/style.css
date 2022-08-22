@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#section-intro {
+    position: relative;
+    color: white;
+    background-image: url("../images/donation9.jpg");
+    min-height: 500px;
+}
+
+#image-overlay {
+    min-height: 500px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(rgba(47, 47, 47, 0.1), rgba(0, 0, 0, 0.9));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner {
+    text-align: center;
+    width: 50%;
+}
+
+#banner h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#banner p {
+    margin-bottom: 25px;
+}
+
+#section-amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#section-amount h1 {
+    font-size: 30px;
+    margin: 20px;
+}
+
+#amounts {
+    display: flex;
+    margin: 30px auto;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(249, 249, 249);
+    width: 80px;
+    height: 80px;
+    color: darkslategray;
+    font-weight: bold;
+    margin: 0px 10px;
+    border-radius: 3px;
+}
+
+#section-amount input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+    width: 75%;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+#section-plans {
+    width: 62%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#section-plans > p {
+    margin-top: 15px;
+    width: 75%;
+}
+
+#plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.plan {
+    border-radius: 5px;
+    width: 32%;
+    height: 300px;
+    padding: 30px 20px 10px 20px;
+    text-align: justify;
+}
+
+.plan img, h3 {
+    margin-bottom: 22px;
+}
+
+.bg-teal {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+.bg-pink {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.bg-sweet {
+    background-color: #FFF4D6
+}
+
+.active {
+    border: 1px solid tomato;
+    color: tomato;
+    background-color: rgb(255, 226, 226);
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    background-color: #FF5959;
+    border: 1px solid #FF5959;
+    color: white;
+    margin: 15px auto;
+    padding: 10px 15px;
+    width: 130px;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: #FF5959;
+    font-weight: bold;
+}
+
